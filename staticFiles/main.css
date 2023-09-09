@@ -60,6 +60,18 @@ label{
 
 
 
+.sub1{
+    font-size: 5rem;
+    color: rgb(62, 233, 136);
+}
+
+.sub2{
+    font-size: 5rem;
+    color: red;
+}
+
+
+
 
 #no1{
     height: 50px;

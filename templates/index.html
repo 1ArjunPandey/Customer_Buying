@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link rel="stylesheet" href="staticFiles/main.css">
+
 </head>
 
 <body>
@@ -34,7 +36,7 @@
                     <select name="out_type" id="outtyp">
                         <option value="" disabled="disabled" selected>Select option</option>
                         <option value="Normal">Console</option>
-                        <option value="Jasonn">Jason_format</option>
+                        <option value="Json_format">API_JSON</option>
                     </select>
 
                 </div>
@@ -42,6 +44,14 @@
                 <div class="con5"><input type="submit" id="no4"></div>
 
             </form>
+
+            <div class="ans">
+                {% if label == 1 %}
+                    <div class="sub1">Costumer is Buying</div>
+                {% elif label == -1 %}
+                    <div class="sub2">He is not Buying</div>
+                {% endif %}
+            </div>
         </div>
 
     </div>
