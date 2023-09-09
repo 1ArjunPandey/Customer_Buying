@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="staticFiles/main.css">
+</head>
+
+<body>
+
+
+    <div class="fcont">
+        <div class="container">
+            <div class="con1">Buyer Prediction</div>
+
+            <form action="/sendd" method="POST">
+                <div class="con2"><label>Buyer Age</label>
+                    <br>
+                    <input type="number" name="age" id="no1">
+                </div>
+
+
+                <div class="con3"><label>Salary <br>
+                        <input type="number" name="salary" id="no2">
+                    </label></div>
+
+
+                <div class="con4">
+                    <label>Output Type</label>
+                    <br>
+
+                    <select name="out_type" id="outtyp">
+                        <option value="" disabled="disabled" selected>Select option</option>
+                        <option value="Normal">Console</option>
+                        <option value="Jasonn">Jason_format</option>
+                    </select>
+
+                </div>
+
+                <div class="con5"><input type="submit" id="no4"></div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
